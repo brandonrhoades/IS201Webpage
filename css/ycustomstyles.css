@@ -1,0 +1,24 @@
+/* This rule targets your custom class for the shift */
+.text-right-shift {
+  position: relative;
+
+  /* X moves right, Y moves up (negative = up) */
+  transform: translate(600px, -120px) !important;
+}
+
+ /* Full-screen hero image ONLY on this page */
+header.masthead.custom-hero {
+  background-image: url("../assets/img/Portrait_of_Brandon_Rhoades.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 31%;
+ 
+
+  height: 100vh;          /* full screen height */
+  min-height: 100vh;      /* ensures it stays full screen */
+  padding: 0;             /* remove theme padding */
+  display: flex;
+  align-items: center;    /* vertically center your text */
+  position: relative;     /* needed if you add overlay */
+}
+
